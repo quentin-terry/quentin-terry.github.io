@@ -4,7 +4,7 @@
  * Copyright 2014-2021 Froala Labs
  */
 
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -41599,8 +41599,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-1 {
   font-size: 0.9375rem;
   border-style: solid;
-  font-weight: 700;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  font-weight: 700;
   margin: 82px auto 0 82px;
   padding: 7px 48px 7px 47px;
 }
@@ -41608,8 +41608,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-2 {
   font-size: 0.9375rem;
   border-style: solid;
-  font-weight: 700;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  font-weight: 700;
   margin: -40px auto 0;
   padding: 7px 48px 7px 47px;
 }
@@ -41617,24 +41617,22 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-3 {
   font-size: 0.9375rem;
   border-style: solid;
-  font-weight: 700;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  font-weight: 700;
   margin: -40px 82px 0 auto;
   padding: 7px 48px 7px 47px;
 }
 
 .u-header .u-text-1 {
-  margin: 35px 0 0;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 257px 0 0;
 }
 
 .u-header .u-text-2 {
   font-weight: 700;
-  margin: 30px 0 0;
-}
-
-.u-header .u-text-3 {
-  font-weight: 700;
-  margin: 30px 0 60px;
+  font-size: 1.8rem;
+  margin: 14px 0 60px;
 }
 @media (max-width: 1199px) {
   .u-header .u-btn-1 {
@@ -41679,3 +41677,4 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+ 
